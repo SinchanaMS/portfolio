@@ -134,9 +134,9 @@ export function HomePage() {
             viewport={{ once: true, margin: '-100px' }}
             transition={{ duration: 0.6, ease: [0.22, 1, 0.36, 1] }}
           >
-            <h2 className={styles.sectionTitle}>Some things I've built</h2>
+            <h2 className={styles.sectionTitle}>A selection of my work</h2>
             <p className={styles.sectionDescription}>
-              From voice AI platforms to design systems — here's what I've been up to.
+             A few things I've built, problems I've untangled, and ideas I've brought to life.
             </p>
           </motion.header>
 
