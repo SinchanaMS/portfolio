@@ -100,7 +100,8 @@ export function Header() {
     <header className={styles.header}>
       <div className={styles.container}>
         <Link to="/" className={styles.logo}>
-          {siteConfig.name !== 'FULL_NAME_NEEDED' ? siteConfig.name : 'Portfolio'}
+          <img src="/logo.png" alt="" className={styles.logoImage} />
+          <span className={styles.logoText}>{siteConfig.name}</span>
         </Link>
 
         <nav className={styles.desktopNav} aria-label="Main navigation">
